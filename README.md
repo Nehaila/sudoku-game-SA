@@ -3,10 +3,8 @@ Sudoku game with simulated annealing using VBA
 
 The code in VBA is as follows:
 
-´´´ 
+```
 Private Sub SolveGame_Click()
-'données
-Randomize
 T = 10000
 imax = 1000
 Tsfr = 100
@@ -387,9 +385,7 @@ Cells(401, 401) = Cells(k, l)
 Cells(k, l) = Cells(400, 400)
 Cells(i, j) = Cells(401, 401)
 
-
 End Function
-´´´ 
-
+```
 You can find the entire code by checking the app. 
 However, I would say that this is not the best way to solve a sudoku problem because it takes a big amount of time to get to the solution, given that we have many permutations to make and the probability of finding the exact one is usually low. Constraint programming would be better at solving these kind of problems. 
