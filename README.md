@@ -1,4 +1,4 @@
-# sudoku-game-SA
+## sudoku-game-SA
 Sudoku game with simulated annealing using VBA
 
 The code in VBA is as follows:
